@@ -1,0 +1,87 @@
+baseURL: / #https://blog.travis.wang
+relativeURLs: true
+title: Travis.Wang
+theme: terminal
+copyright: Travis.Wang
+timeZone: Asia/Shanghai
+hasCJKLanguage: true
+uglyURLs: false
+enableMissingTranslationPlaceholders: true
+enableRobotsTXT: true
+removePathAccents: true
+cleanDestinationDir: true
+
+services:
+  disqus:
+    shortname: travis-wang
+
+menu:
+  main:
+    - identifier: dev
+      name: 开发
+      url: /tags/开发.html
+      weight: 1
+    - identifier: tags
+      name: 标签
+      url: /tags.html
+      weight: 109
+
+markup:
+  highlight:
+    noClasses: false
+
+##
+params:
+  centerTheme: true
+  autoCover: true
+  contentTypeName: 'posts'
+  twitter:
+    creator: trawor
+  themeColor: blue
+  logo:
+    logoText: Travis.Wang
+  TocTitle: '目录'
+  readMore: 阅读全文
+  menuMore: "更多..."
+  readOtherPosts: 其它文章
+  minuteReadingTime: "分钟阅读"
+  words: "字"
+  lastUpdated: "最后更新于"
+  missingContentMessage: "找不到了..."
+  missingBackButtonLabel: "返回首页"
+
+defaultContentLanguage: zh
+# languageCode: zh
+# languages:
+#   zh:
+#     params:
+#       menu:
+#         main:
+#           - identifier: dev
+#             name: 开发
+#             url: /tags/开发.html
+#             weight: 1
+#           - identifier: tags
+#             name: 标签
+#             url: /tags.html
+#             weight: 109
+#           - identifier: about
+#             name: 关于我
+#             url: /pages/about.html
+#             weight: 110
+#   en:
+#     params:
+#       menu:
+#         main:
+#           - identifier: dev
+#             name: 开发
+#             url: /tags/开发.html
+#             weight: 1
+#           - identifier: tags
+#             name: 标签
+#             url: /tags.html
+#             weight: 109
+#           - identifier: about
+#             name: About
+#             url: /pages/about.html
+#             weight: 110
